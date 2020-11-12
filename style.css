@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+  }
+  .navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  margin: 1px;
+  font-size: 20px;
+  }
+  .navbar a.active {
+      background-color: rgb(69, 182, 90);
+  }
+  .info {
+      font-size: large;
+  }
+  .text {
+    padding: 15px;
+    margin: auto;
+
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+  }
+#phone {
+    margin-left: 40px;
+}
+.submitInfo {
+    text-align: center;
+}
+.submitInfo input {
+    margin: 5px;
+}
+.submitInfo textarea {
+    margin: 5px;
+}
