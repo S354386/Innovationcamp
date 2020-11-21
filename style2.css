@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: #ECECEC;
 }
 
 html {
@@ -234,3 +235,44 @@ li a:hover {
         padding: 20px 30px;
     }
 }
+.sources {
+    background-color: white;
+    opacity: 76%;
+    font-weight: bold;
+    left: 15%;
+    position: absolute;
+    top: 10%;
+    width: 70%;
+    margin-bottom: 35px;
+}
+.sources_Title {
+    text-align: center;
+    font-size: 6vh;
+    font-weight: bold;
+    left: 15%;
+}
+.sources li {
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    left: 2%;
+    
+
+}
+.sources ul {    
+    padding: 3px;
+    margin-left: 25px;
+    position: relative;
+    left: 10%;
+    margin-right: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+.sources h2 {
+    font-weight: bold;
+}
+
